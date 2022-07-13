@@ -1,50 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix Portugal - Veja séries de televisão e filmes online!</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Portugal - Veja séries de televisão e filmes online!</title>
+  <link href="http://fonts.cdnfonts.com/css/netflix-font" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div>
 
     <section class="home-blur-effect">
 
-        <section class="home">
-    
-          <header class="header">
-            <ul class="ul-header-home">
-                <h1 class="netflix-logo">
-                    <img src="img/netflix-logo.png" >
-                </h1>
-               
-              <li>
-                <a href="">
-                  <i class="fa-solid fa-globe"></i>
-                  Português
-                  <i class="fa-solid fa-caret-down"></i
-                ></a>
-              </li>
-              <li>
-                Iniciar Sessão
-              </li>
-            </ul>
-          </header>
-    
-          <div class="content-home">
-    
-    
-          </div>
-    
-        </section>
-    </section>
-    
+      <section class="home">
 
-    <script
-      src="https://kit.fontawesome.com/9ad2a678fc.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <header class="header">
+          <h1 class="netflix-logo">
+            <img src="img/netflix-logo.png">
+          </h1>
+
+
+
+          <ul class="ul-header-home">
+            <li class="li-language">
+              <a href="">
+                <i class="fa-solid fa-globe"></i>
+                Português
+                <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li class="li-btn-begin-section">
+              <a href="#">Iniciar Sessão</a>
+            </li>
+          </ul>
+        </header>
+
+        <article class="content-home">
+
+          <div class="info-content-home">
+            <div class="info-content-home-">
+              <h1>
+                Acesso ilimitado a séries e filmes e muito mais.
+              </h1>
+              <h2>
+                Veja em qualquer lugar. Cancele quando quiser.
+              </h2>
+              <h3>
+                Quer começar a ver? Introduza o seu e-mail para criar ou reativar a sua conta.
+              </h3>
+            </div>
+
+          </div>
+
+          <div class="home-content-form">
+            <form class="form-registration-create-account" action="registration.html">
+  
+              <input type="text" placeholder="Endereço de E-mail" class="input-text" id="input-email" required name=email>
+              <button class="btn-registration">Começar ></button>
+              <span class="span-error">Introduza um endereço de e-mail válido</span>
+  
+            </form>
+
+          </div>
+
+
+
+
+        </article>
+
+      </section>
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/9ad2a678fc.js" crossorigin="anonymous"></script>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
 </html>

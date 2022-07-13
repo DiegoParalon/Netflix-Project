@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "netflix-bold";
+  src: url(../fonts/NetflixSans-Bold.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "netflix-light";
+  src: url(../fonts/NetflixSans-Light.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "netflix-medium";
+  src: url(../fonts/NetflixSans-Medium.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "netflix-regular";
+  src: url(../fonts/NetflixSans-Regular.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,25 +27,152 @@
 }
 
 /*********
-    HOME
+    HOME  HEADER
     *******/
-.home-blur-effect {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+body {
+  color: white;
+  font-size: 15px;
+  font-family: "netflix Font", sans-serif;
+  
 }
 
 .home {
-  height: 100vh;
-  width: 100%;
-  box-shadow: inset 200px 200px 200px 400px rgb(0 0 0 / 68%);
-  
-  
+  height: 97vh;
+  font-family: "netflix", sans-serif;
+  font-weight: 400;
 }
-
+.home-blur-effect {
+  height: 97vh;
+  background-image: url(../bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 200px 200px 200px 400px rgb(0 0 0 / 68%);
+}
 
 .home .header {
+  color: white;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
+
+
+.home .header .netflix-logo img {
+  width: 250px;
+  margin-left: 30px;
+  margin-top: -25px;
+}
+
+.home .header .ul-header-home {
+  display: flex;
+  margin-top: 35px;
+  margin-right: 10px;
+}
+
+.home .header .ul-header-home li {
+  margin-right: 50px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.home .header .ul-header-home .li-btn-begin-section {
+  color: white;
+  background-color: #E10712;
+  height: 37px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.home .header .ul-header-home .li-btn-begin-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+.home .header .ul-header-home .li-language {
+  height: 37px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7px;
+}
+
+.home .header .ul-header-home .li-language a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+}
+
+/*********
+    HOME  Content
+    *******/
+
+.home .content-home .info-content-home {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+    }
+
+
+.home .content-home .info-content-home- {
+  
+  max-width: 950px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+
+.home .content-home h1  {
+  font-size: 4.7em;
+  margin-bottom: 20px;
+
+}
+
+.home .content-home h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.home .content-home h3 {
+  font-size: 1.5em;
+  
+  font-weight: 400;
+}
+
+.home .home-content-form {
+  text-align: center;
+}
+
+
+.home-content-form .form-registration-create-account .input-text {
+  
+  padding: 25px 175px;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 400;
+   
+}
+
+
+.home-content-form .form-registration-create-account .btn-registration {
+  background-color: #E10712;
+  padding: 19px 60px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1.9em;
+   
+  
+}
+
+
