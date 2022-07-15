@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "netflix-bold";
+    src: url(../fonts/NetflixSans-Bold.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  
+    font-family: "netflix-light";
+    src: url(../fonts/NetflixSans-Light.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  
+    font-family: "netflix-medium";
+    src: url(../fonts/NetflixSans-Medium.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  
+    font-family: "netflix-regular";
+    src: url(../fonts/NetflixSans-Regular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*********
+      HOME  HEADER
+      *******/
+  
+  body {
+    color: white;
+    font-size: 15px;
+    font-family: "netflix Font", sans-serif;
+    
+  }
+  
+  .home {
+    height: 100vh;
+    font-family: "netflix", sans-serif;
+    font-weight: 400;
+    
+  }
+
+  .home .login-center {
+    display: flex;
+    justify-content: center;
+  }
+  .home-blur-effect {
+    height: 100vh;
+    background-image: url(../bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 200px 200px 200px 400px rgb(0 0 0 / 68%);
+  }
+  
+  .home .header {
+    color: white;
+    width: 100%;
+    
+  }
+  
+  
+  .home .header .netflix-logo img {
+    width: 250px;
+    margin-left: 30px;
+    margin-top: -25px;
+    
+  }
+
+
+  /*************
+   LOGIN FORM
+  **************/ 
+
+  .home .login {
+    display: flex;
+    flex-direction: column;
+    
+    width: 500px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px;
+    text-align: center;
+    
+  }
+
+  .home .login .form-login {
+    display: flex;
+    flex-direction: column;
+  }
+  .home .login .h1 {
+    font-size: 2.3em;
+    margin-bottom: 35px;
+    text-align: left;
+  }
+
+  
+  
+  .home .login .register-now {
+    display: block;
+    color: rgb(99, 97, 97);
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    
+  }
+
+  .home .login a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .home .login .input-text {
+    display: block;
+    background-color: #333333;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    
+  }
+
+  .home .login .btn-registration {
+    display: block;
+    background-color: red;
+    padding: 17px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .home .login .content-help {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    color: rgb(99, 97, 97);
+    
+  }
+
+  
+
+  .home .login .need-help,
+  .home .login label {
+    color: rgb(140, 134, 134); 
+    
+  }
+
+  .home .login .input-check {
+    margin-right: -30px;
+    width: 20px;
+    cursor: pointer;
+    background-color: #3333;
+    color: rgb(99, 97, 97);
+  }
+
+  .home .login .recaptcha {
+    color: rgb(99, 97, 97); 
+    
+  }
+
+  .home .login .a-more {
+    margin-left: 7px;
+    color: blue;
+  }
+
+  
+
+
+  
