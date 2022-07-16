@@ -6,78 +6,238 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Netflix Portugal - Veja séries de televisão e filmes online!</title>
-  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/home.css" />
 </head>
 
 <body>
-  
+  <section class="home-blur-effect">
+    <section class="home">
+      <header class="header">
+        <h1 class="netflix-logo">
+          <img src="img/netflix-logo.png" />
+        </h1>
 
-    <section class="home-blur-effect">
+        <ul class="ul-header-home">
+          <li class="li-language">
+            <a href="">
+              <i class="fa-solid fa-globe"></i>
+              Português
+              <i class="fa-solid fa-caret-down"></i></a>
+          </li>
 
-      <section class="home">
+          <li class="li-btn-begin-section">
+            <a href="login.html">Iniciar Sessão</a>
+          </li>
+        </ul>
+      </header>
 
-        <header class="header">
-          <h1 class="netflix-logo">
-            <img src="img/netflix-logo.png">
-          </h1>
-
-
-
-          <ul class="ul-header-home">
-            <li class="li-language">
-              <a href="">
-                <i class="fa-solid fa-globe"></i>
-                Português
-                <i class="fa-solid fa-caret-down"></i></a>
-            </li>
-
-            <li class="li-btn-begin-section">
-              <a href="login.html">Iniciar Sessão</a>
-            </li>
-          </ul>
-        </header>
-
-        <article class="content-home">
-
-          <div class="info-content-home">
-            <div class="info-content-home-">
-              <h1>
-                Acesso ilimitado a séries e filmes e muito mais.
-              </h1>
-              <h2>
-                Veja em qualquer lugar. Cancele quando quiser.
-              </h2>
-              <h3>
-                Quer começar a ver? Introduza o seu e-mail para criar ou reativar a sua conta.
-              </h3>
-            </div>
-
+      <article class="content-home">
+        <div class="info-content-home">
+          <div class="info-content-home-">
+            <h1>Acesso ilimitado a séries e filmes e muito mais.</h1>
+            <h2>Veja em qualquer lugar. Cancele quando quiser.</h2>
+            <h3>
+              Quer começar a ver? Introduza o seu e-mail para criar ou
+              reativar a sua conta.
+            </h3>
           </div>
+        </div>
 
-          <div class="home-content-form">
-            <form class="form-registration-create-account" action="registration.html" method="get">
-
-              <input type="text" placeholder="Endereço de e-mail" class="input-text" id="input-email" required
-                name=email>
-              <button class="btn-registration">Começar ></button>
-              <span class="span-error">Introduza um endereço de e-mail válido</span>
-            </form>
-
-          </div>
-
-
-
-
-        </article>
-
-      </section>
+        <div class="home-content-form">
+          <form class="form-registration-create-account" action="registration.html" method="get">
+            <input type="text" placeholder="Endereço de e-mail" class="input-text" id="input-email" required
+              name="email" />
+            <button class="btn-registration">Começar ></button>
+            <span class="span-error">Introduza um endereço de e-mail válido</span>
+          </form>
+        </div>
+      </article>
     </section>
+  </section>
+
+  <section class="card-animation">
+    <div class="header-bar"></div>
+    <div class="card-infos">
+      <h1>Veja A Netflix no seu televisor.</h1>
+      <h2>
+        Smart TVs, Playstation, Xbox, Chromecast, Apple TV, leitores de
+        Blu-ray e muito mais.
+      </h2>
+    </div>
+
+    <div class="card-animation-img">
+      <img alt="" class="our-story-card-img"
+        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+        data-uia="our-story-card-img" />
+      <div class="our-store-card-animation">
+        <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+          class="our-store-card-video" type="video/mp4" autoplay playsline muted loop></video>
+      </div>
+    </div>
+  </section>
+
+  <section class="download-and-watch">
+    <div class="content-all">
+      <div class="content-img">
+        <div class="card-download">
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+            alt="stranger-things" class="stranger-things-img" />
+          <div class="card-download-info">
+            <h1>Stranger Things</h1>
+            <h4>A transferir...</h4>
+          </div>
+
+          <div class="gif-loading">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+              alt="gif-loading" />
+          </div>
+        </div>
+        <img src="img/mobile-img.jpg" alt="mobile-img" class="img-phone" />
+      </div>
 
 
-    <script src="https://kit.fontawesome.com/9ad2a678fc.js" crossorigin="anonymous"></script>
+      <div class="content-info-download-and-watch">
+        <h1>Transfira os seus programas para ver offline.</h1>
+        <h2>Guarde os seus favoritos e tenha sempre algo para ver.</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="watch-on-device">
+    <div class="watch-on-device-info-content">
+      <div class="watch-on-device-info">
+        <h1>Veja onde quiser.</h1>
+        <h2>Veja em streaming com acesso ilimitado a séries e filmes no seu telemóvel, tablet, computador e televisor,
+          sem ter de pagar mais.</h2>
+      </div>
+
+      <div class="watch-on-device-info-animation">
+        <img alt="" class="our-story-card-img"
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png">
+        <div class="animation-video">
+          <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+            autoplay playsinline muted loop class="video-animation"></video>
+
+        </div>
+
+      </div>
+    </div>
 
 
-    <script src="./js/main.js"></script>
+  </section>
+
+  <section class="kids-section">
+
+    <div class="kids-content">
+      <div class="kids-content-img">
+        <img src="img/kids-img.png" alt="kids-img">
+
+      </div>
+
+
+      <div class="kids-content-info">
+        <h1>Crie perfis para crianças.</h1>
+        <h2>As crianças também poderão descobrir novas aventuras e encontrar os seus personagens favoritos num espaço
+          dedicado, que está incluído na sua adesão.</h2>
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="frequent-questions">
+    <h1>Perguntas frequentes</h1>
+
+    <ul class="content-questions">
+      <li class="questions-opt-frequent-close">O que é a Netflix?
+        <ion-icon name="add-outline" class="ion-icon"></ion-icon>
+      </li>
+
+      <div class="content-answer-closed">
+        <p>
+          Netflix é um serviço de streaming que oferece uma grande variedade de séries de televisão, filmes, títulos de
+          animé, documentários e outros conteúdos premiados que podem ser vistos em milhares de dispositivos com uma
+          ligação à internet.<br><br>
+
+          Pode ver tudo o que quiser, quando quiser, sem anúncios. Tudo por um baixo custo mensal. Há sempre novos
+          conteúdos para descobrir e todas as semanas são adicionados novos filmes e séries!
+        </p>
+
+      </div>
+
+      <li class="questions-opt-frequent-close">Quanto custa a Netflix?
+        <ion-icon name="add-outline" class="ion-icon"></ion-icon>
+      </li>
+      <div class="content-answer-closed">
+        <p>
+          Veja a Netflix no seu smartphone, tablet, Smart TV, computador ou dispositivo de streaming, tudo isto por um
+          preço mensal fixo. Os preços dos planos variam entre 7,99 € e 15,99 € por mês. Sem custos adicionais, nem
+          contratos.
+
+        </p>
+
+      </div>
+      <li class="questions-opt-frequent-close">Onde posso ver a Netflix?
+        <ion-icon name="add-outline" class="ion-icon"></ion-icon>
+      </li>
+      <div class="content-answer-closed">
+        <p>
+          Veja onde quiser, quando quiser. Inicie sessão com a sua conta Netflix para ver instantaneamente na web em
+          netflix.com no seu PC ou em qualquer dispositivo com ligação à internet que tenha a aplicação Netflix,
+          incluindo televisores Smart TV, smartphones, tablets, dispositivos de streaming e consolas de jogos.
+
+          <br><br>
+
+          Também pode transferir os seus filmes e séries favoritos através da aplicação para iOS, Android ou Windows 10.
+          Transfira títulos para ver em qualquer lugar e sem uma ligação à internet. Leve a Netflix consigo para onde
+          quiser.
+        </p>
+
+      </div>
+      <li class="questions-opt-frequent-close">Como posso cancelar?
+        <ion-icon name="add-outline" class="ion-icon"></ion-icon>
+      </li>
+      <div class="content-answer-closed">
+        <p>
+          A Netflix é flexível. Sem contratos exigentes nem fidelização. Pode cancelar facilmente a sua conta online com
+          dois cliques. Sem custos de cancelamento: ative ou cancele a sua conta em qualquer altura.
+        </p>
+
+      </div>
+      <li class="questions-opt-frequent-close">O que posso ver na Netflix?
+        <ion-icon name="add-outline" class="ion-icon"></ion-icon>
+      </li>
+      <div class="content-answer-closed">
+        <p>
+          A Netflix tem uma vasta biblioteca de originais Netflix premiados, títulos de animé, filmes, documentários,
+          séries, programas de televisão e muitos outros conteúdos. Veja os títulos que quiser, quando quiser.
+        </p>
+
+      </div>
+      <li class="questions-opt-frequent-close">A Netflix é adequada para crianças?
+        <ion-icon name="add-outline" class="ion-icon"></ion-icon>
+      </li>
+      <div class="content-answer-closed">
+        A adesão à Netflix inclui um perfil Crianças para dar aos pais um melhor controlo, bem como um espaço dedicado
+        às crianças, com filmes e séries para toda a família.
+
+        Os perfis Crianças incluem funcionalidades de controlo parental com acesso por PIN, que lhe permitem alterar a
+        classificação etária dos conteúdos que as suas crianças podem ver e bloquear títulos específicos.
+
+      </div>
+
+    </ul>
+
+
+  </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://kit.fontawesome.com/9ad2a678fc.js" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

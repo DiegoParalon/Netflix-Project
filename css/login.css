@@ -38,9 +38,10 @@
   }
   
   .home {
-    height: 100vh;
+    
     font-family: "netflix", sans-serif;
     font-weight: 400;
+    
     
   }
 
@@ -49,7 +50,7 @@
     justify-content: center;
   }
   .home-blur-effect {
-    height: 100vh;
+    
     background-image: url(../bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,7 +81,7 @@
     flex-direction: column;
     
     width: 500px;
-    height: 650px;
+    height: 700px;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 70px;
     text-align: center;
@@ -125,6 +126,16 @@
     
   }
 
+  .home .login .input-text.active {
+    border-bottom: 2px solid #E87C03 ;
+    
+  }
+
+
+
+
+  
+
   .home .login .btn-registration {
     display: block;
     background-color: red;
@@ -138,7 +149,7 @@
 
   .home .login .content-help {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     justify-content: space-between;
     color: rgb(99, 97, 97);
     
@@ -162,6 +173,7 @@
 
   .home .login .recaptcha {
     color: rgb(99, 97, 97); 
+    padding-bottom: 50px;
     
   }
 
@@ -169,6 +181,83 @@
     margin-left: 7px;
     color: blue;
   }
+
+  .home .login .span-error,
+  .home .login .span-error-password {
+    color: #E87C03;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    display: none;
+    
+    
+  }
+
+  .home .login .span-error.active,
+  .home .login .span-error-password.active
+   {
+    display: block;
+    
+  }
+
+
+  /*********
+  FOOTER
+  *********/
+
+  .home .footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 100px;
+    color: gray;
+    padding: 20px 270px;
+  }
+
+  .home .footer h3 {
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding-top: 20px;
+  }
+
+  .home .footer ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .home .footer ul li {
+    list-style: none;
+    padding: 30px 50px;
+    margin: 0;
+  }
+
+
+
+  .home .footer ul li a {
+    text-decoration: none;
+    color: gray;
+  }
+
+ 
+  
+.home .footer .li-language {
+  width: 170px;
+  height: 43px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7px;
+  
+
+}
+
+.home .footer .li-language a {
+  text-decoration: none;
+  color: gray;
+}
 
   
 

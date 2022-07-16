@@ -34,7 +34,6 @@ body {
   color: white;
   font-size: 15px;
   font-family: "netflix Font", sans-serif;
-  
 }
 
 .home {
@@ -42,6 +41,7 @@ body {
   font-family: "netflix", sans-serif;
   font-weight: 400;
 }
+
 .home-blur-effect {
   height: 97vh;
   background-image: url(../bg.jpg);
@@ -56,7 +56,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
 
 .home .header .netflix-logo img {
   width: 250px;
@@ -78,7 +77,7 @@ body {
 
 .home .header .ul-header-home .li-btn-begin-section {
   color: white;
-  background-color: #E10712;
+  background-color: #e10712;
   height: 37px;
   width: 150px;
   display: flex;
@@ -86,6 +85,7 @@ body {
   justify-content: center;
   border-radius: 5px;
 }
+
 .home .header .ul-header-home .li-btn-begin-section a {
   text-decoration: none;
   color: white;
@@ -117,24 +117,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
-    }
-
+}
 
 .home .content-home .info-content-home- {
-  
   max-width: 950px;
   text-align: center;
   margin-bottom: 20px;
-  
 }
 
-
-.home .content-home h1  {
+.home .content-home h1 {
   font-size: 4.7em;
   margin-bottom: 20px;
-
 }
 
 .home .content-home h2 {
@@ -145,7 +138,7 @@ body {
 
 .home .content-home h3 {
   font-size: 1.5em;
-  
+
   font-weight: 400;
 }
 
@@ -153,9 +146,7 @@ body {
   text-align: center;
 }
 
-
 .home-content-form .form-registration-create-account .input-text {
-  
   height: 80px;
   width: 550px;
   border: none;
@@ -163,25 +154,17 @@ body {
   font-weight: 400;
   padding-left: 10px;
   position: relative;
- 
-  
- 
 }
 
-
-
 .home-content-form .form-registration-create-account .btn-registration {
-  background-color: #E10712;
+  background-color: #e10712;
   height: 80px;
   width: 230px;
   border: none;
   color: white;
   font-weight: 400;
   font-size: 1.9em;
-   
-  
 }
-
 
 .home-content-form .form-registration-create-account .span-error {
   color: red;
@@ -191,12 +174,275 @@ body {
   left: -260px;
   margin-top: 3px;
   display: none;
-  }
+}
 
-  .home-content-form .form-registration-create-account .span-error.active {
-    display: block;
-  }
+.home-content-form .form-registration-create-account .span-error.active {
+  display: block;
+}
+
+.home .line-bottom-effect {
+  width: 100%;
+  background-color: gray;
+  height: 15px;
+  margin-top: 300px;
+}
+
+/***************
+ SECTION CARDS
+ ***************/
+
+.card-animation {
+  height: 80vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  border-bottom: 5px solid gray;
+}
+
+.card-animation .header-bar {
+  width: 100%;
+  height: 5px;
+  background-color: gray;
+  position: absolute;
+}
+
+.card-animation .card-infos h1 {
+  font-size: 3.9em;
+  max-width: 600px;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.card-animation .card-infos h2 {
+  font-size: 1.8em;
+  font-weight: 300;
+  max-width: 550px;
+  margin-left: 200px;
+}
+
+.card-animation .card-animation-img .our-story-card-img {
+  position: absolute;
+  margin-top: 5px;
+  max-height: 54%;
+  max-width: 73%;
+}
+
+.card-animation .card-animation-img .our-store-card-video {
+  position: relative;
+  height: 100%;
+  width: 90%;
+  top: 98px;
+  right: -85px;
+  object-fit: contain;
+}
+
+/************
+ DOWNLOAD AND WATCH
+ *************/
+
+.download-and-watch {
+  height: 70vh;
+  background-color: rgb(0, 0, 0);
+  padding-left: 70px;
+  border-bottom: 5px solid gray;
+}
+
+.content-all {
+  display: flex;
+}
+
+.download-and-watch .content-img {
+  position: relative;
+}
+
+.download-and-watch .card-download {
+  position: absolute;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgb(105, 103, 103);
+  border-radius: 10px;
+  top: 65%;
+  left: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-and-watch .card-download .stranger-things-img {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.download-and-watch .card-download .card-download-info h4 {
+  color: blue;
+}
+
+.download-and-watch .card-download .gif-loading img {
+  width: 60px;
+}
+
+.content-info-download-and-watch {
+  margin: 130px 0 30px 120px;
+}
+
+.content-info-download-and-watch h1 {
+  font-size: 3.8em;
+  max-width: 500px;
+}
+
+.content-info-download-and-watch h2 {
+  font-weight: 400;
+  font-size: 1.8em;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+/****************
+ WATCH ON DEVICE
+ *****************/
+
+.watch-on-device {
+  height: 70vh;
+  background-color: black;
+  border-bottom: 5px solid gray;
+}
+
+.watch-on-device .watch-on-device-info-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.watch-on-device .watch-on-device-info-content .watch-on-device-info {
+  max-width: 600px;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+.watch-on-device .watch-on-device-info-content .watch-on-device-info h1 {
+  font-size: 3.7em;
+  margin-bottom: 20px;
+}
+
+.watch-on-device .watch-on-device-info-content .watch-on-device-info h2 {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.watch-on-device .watch-on-device-info-content .watch-on-device-info-animation {
+  margin: 40px 160px 0 0;
+  position: relative;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.watch-on-device .watch-on-device-info-content .watch-on-device-info-animation img {
+  z-index: 2;
+  overflow: hidden;
+  max-width: fit-content;
+}
+
+.watch-on-device .watch-on-device-info-content .watch-on-device-info-animation .animation-video {
+  left: 50%;
+  top: 34%;
+  max-height: 47%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.watch-on-device .watch-on-device-info-content .watch-on-device-info-animation .animation-video video {
+  width: 100%;
+  height: 100%;
+}
+
+/****************
+ KIDS SECTION
+ ****************/
+
+.kids-section {
+  
+  background-color: black;
+  border-bottom: 5px solid gray;
+}
+
+.kids-section .kids-content {
+  display: flex;
+  padding-top: 120px;
+  margin-left: 200px;
+}
+
+.kids-section .kids-content .kids-content-info {
+  
+  margin-left: 35px;
+}
+
+.kids-section .kids-content .kids-content-info h1 {
+  font-size: 3.8em;
+  margin-bottom: 20px;
+  max-width: 500px;
+ 
+}
+
+.kids-section .kids-content .kids-content-info h2 {
+  font-weight: 400;
+  font-size: 1.9em;
+  letter-spacing: 1.2px;
+  max-width: 650px;
+  
+}
+
+/*****************
+  FREQUENT QUESTIONS SECTION
+*****************/
+
+.frequent-questions {
+  height: 90vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frequent-questions h1 {
+  margin: 70px 0 50px 0;
+  font-size: 3.9em;
+}
+
+.frequent-questions .questions-opt-frequent-close {
+  width: 900px;
+  height: 80px;
+  background-color: rgba(48,48,48,1);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  font-size: 2.0em;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+}
 
 
+.frequent-questions .questions-opt-frequent- .ion-icon {
+  font-size: 45px;
+  font-weight: 400;
+}
 
+.frequent-questions .content-questions .content-answer-closed  {
+  width: 900px;
+  display: none;
+  background-color: rgba(48,48,48,1);
+  margin-bottom: 10px;
+  margin-top: -8px;
+  font-size: 1.9em;
+  padding: 30px;
+  line-height: 35px;
+  
+}
 
+.frequent-questions .content-questions .content-answer-closed.open {
+  display: block;
+}
