@@ -11,27 +11,27 @@ const spanErrorPassword = document.querySelector('.span-error-password')
 
 
 btnRegistration.onclick = (e) => {
-    
+
     if (inputEmail.value === '') {
         inputEmail.classList.add('active')
-        spanError.classList.add('active')    
-        const preventDefault = e.preventDefault()   
+        spanError.classList.add('active')
+        const preventDefault = e.preventDefault()
     } else {
         inputEmail.classList.remove('active')
-        spanError.classList.remove('active') 
+        spanError.classList.remove('active')
     }
 
     if (inputPassword.value === '') {
         inputPassword.classList.add('active')
-        spanErrorPassword.classList.add('active') 
+        spanErrorPassword.classList.add('active')
         const preventDefault = e.preventDefault()
     } else {
         inputPassword.classList.remove('active')
-        spanErrorPassword.classList.remove('active') 
+        spanErrorPassword.classList.remove('active')
 
     }
 
-   
+
 }
 
 

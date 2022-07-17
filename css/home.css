@@ -67,6 +67,30 @@ body {
   display: flex;
   margin-top: 35px;
   margin-right: 10px;
+  position: relative;
+}
+.home .header .ul-header-home  .languages {
+  position: absolute;
+  background-color: gray;
+  width: 34%;
+  height: 50px;
+  top: 34%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: none;
+  
+}
+.home .header .ul-header-home  .languages li {
+  margin: 1px;
+  font-size: 1.1em;
+}
+
+.home .header .ul-header-home  .languages.actived {
+  display: flex;
 }
 
 .home .header .ul-header-home li {
@@ -100,7 +124,10 @@ body {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 7px;
+ 
 }
+
+
 
 .home .header .ul-header-home .li-language a {
   text-decoration: none;
@@ -399,11 +426,12 @@ body {
 *****************/
 
 .frequent-questions {
-  height: 90vh;
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 90px;
+  border-bottom: 5px solid gray;
 }
 
 .frequent-questions h1 {
@@ -426,9 +454,18 @@ body {
 }
 
 
-.frequent-questions .questions-opt-frequent- .ion-icon {
+.frequent-questions .questions-opt-frequent-close .ion-icon {
   font-size: 45px;
   font-weight: 400;
+  
+}
+
+.frequent-questions .questions-opt-frequent-close .ion-icon .active {
+  transform: rotate(45deg);
+  font-weight: 400;
+  font-size: 45px;
+  
+ 
 }
 
 .frequent-questions .content-questions .content-answer-closed  {
@@ -440,9 +477,111 @@ body {
   font-size: 1.9em;
   padding: 30px;
   line-height: 35px;
-  
+  transition: all 5s ease;
 }
+  
+
 
 .frequent-questions .content-questions .content-answer-closed.open {
   display: block;
+  transition: all 5s ease;
 }
+
+
+/***************
+Footer FORM 
+****************/
+
+.footer-section {
+ padding-bottom: 50px;
+  background-color: black;
+  
+  
+}
+
+.footer-section .footer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 350px;
+  
+  
+  
+  
+  
+  
+}
+
+.footer-section .footer h3 {
+  margin-top: 80px;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: rgb(93, 93, 93);
+  margin-bottom: 30px;
+  
+  
+}
+
+.footer-section .footer  .ul-footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+  
+  
+}
+.footer-section .footer .ul-footer li {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+ 
+  
+}
+.footer-section .footer .ul-footer li a {
+  text-decoration: none;
+  color: rgb(93, 93, 93);
+}
+
+
+
+
+.form-start-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.form-start-view .start-view {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 40px 0 20px 0;
+}
+
+.form-start-view .start-view #form-start-view {
+  margin-bottom: 30px;
+}
+
+.footer-section .footer .ul-language .li-language a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-section .footer .ul-language .li-language {
+  border: 1px solid gray;
+  list-style: none;
+  padding: 21px 30px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+.footer-section .footer  .netflix-pt {
+  font-weight: 300;
+  color: gray;
+}
+
